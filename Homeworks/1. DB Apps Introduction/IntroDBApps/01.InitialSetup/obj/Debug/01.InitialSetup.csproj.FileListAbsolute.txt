@@ -1,0 +1,6 @@
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 1 - DB Apps Introduction\IntroDBApps\01.InitialSetup\bin\Debug\01.InitialSetup.exe.config
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 1 - DB Apps Introduction\IntroDBApps\01.InitialSetup\bin\Debug\01.InitialSetup.exe
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 1 - DB Apps Introduction\IntroDBApps\01.InitialSetup\bin\Debug\01.InitialSetup.pdb
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 1 - DB Apps Introduction\IntroDBApps\01.InitialSetup\obj\Debug\01.InitialSetup.csprojResolveAssemblyReference.cache
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 1 - DB Apps Introduction\IntroDBApps\01.InitialSetup\obj\Debug\01.InitialSetup.exe
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 1 - DB Apps Introduction\IntroDBApps\01.InitialSetup\obj\Debug\01.InitialSetup.pdb

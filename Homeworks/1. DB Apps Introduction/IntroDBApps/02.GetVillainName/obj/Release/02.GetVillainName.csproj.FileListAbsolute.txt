@@ -1,0 +1,6 @@
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 1 - DB Apps Introduction\IntroDBApps\02.GetVillainName\bin\Release\02.GetVillainName.exe.config
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 1 - DB Apps Introduction\IntroDBApps\02.GetVillainName\bin\Release\02.GetVillainName.exe
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 1 - DB Apps Introduction\IntroDBApps\02.GetVillainName\bin\Release\02.GetVillainName.pdb
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 1 - DB Apps Introduction\IntroDBApps\02.GetVillainName\obj\Release\02.GetVillainName.exe
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 1 - DB Apps Introduction\IntroDBApps\02.GetVillainName\obj\Release\02.GetVillainName.pdb
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 1 - DB Apps Introduction\IntroDBApps\02.GetVillainName\obj\Release\02.GetVillainName.csprojResolveAssemblyReference.cache
