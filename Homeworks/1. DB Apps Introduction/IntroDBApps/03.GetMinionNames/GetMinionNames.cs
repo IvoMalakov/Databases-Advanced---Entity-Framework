@@ -16,11 +16,11 @@ namespace _01.InitialSetup
             GetMinions(input, connection);
         }
 
-        static void GetMinions(int vilainID, SqlConnection connection)
+        private static void GetMinions(int vilainID, SqlConnection connection)
         {
             connection.Open();
 
-            string selectionCommand = "SELECT m.Name, " +
+            string selectionCommand = "SELECT m.Name, " + 
                                         "m.Age " +
                                         "FROM [dbo].[Minions] AS m " +
                                         "INNER JOIN [dbo].[MinionsVillainsConnections] AS mv " +
@@ -33,7 +33,6 @@ namespace _01.InitialSetup
             command.Parameters.AddWithValue("@villainID", vilainID);
 
             SqlDataReader reader = command.ExecuteReader();
-            int count = 1;
 
             using (reader)
             {
@@ -49,11 +48,10 @@ namespace _01.InitialSetup
                     {
                         for (int i = 0; i < reader.FieldCount; i++)
                         {
-                            Console.Write("{1}. {0} ", reader[i], count);
+                            Console.Write("{0} ", reader[i]);
                         }
 
                         Console.WriteLine();
-                        count++;
                     }
                 }
             }
@@ -61,7 +59,7 @@ namespace _01.InitialSetup
             connection.Close();
         }
 
-        static void GetVillainName(int villainID, SqlConnection connection)
+        private static void GetVillainName(int villainID, SqlConnection connection)
         {
             connection.Open();
 

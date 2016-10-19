@@ -6,15 +6,15 @@ GO
 
 CREATE TABLE Countries
 (
-	CountryID INT PRIMARY KEY,
+	CountryID INT IDENTITY PRIMARY KEY,
 	CountryName VARCHAR(50) NOT NULL
 )
 
 CREATE TABLE Towns
 (
-	TownID INT PRIMARY KEY,
+	TownID INT IDENTITY PRIMARY KEY,
 	TownName VARCHAR(50) NOT NULL,
-	CountryID INT UNIQUE,
+	CountryID INT,
 	CONSTRAINT FK_Towns_Countries FOREIGN KEY (CountryID)
 		REFERENCES Countries (CountryID)
 )
@@ -22,24 +22,24 @@ CREATE TABLE Towns
 
 CREATE TABLE Minions
 (
-	MinionID INT PRIMARY KEY,
+	MinionID INT IDENTITY PRIMARY KEY,
 	Name VARCHAR(50) NOT NULL,
 	Age INT,
-	TownID INT UNIQUE,
+	TownID INT,
 	CONSTRAINT FK_Minions_Towns FOREIGN KEY (TownID)
 		REFERENCES Towns (TownID)
 )
 
 CREATE TABLE Villains
 (
-	VillainID INT PRIMARY KEY,
+	VillainID INT IDENTITY PRIMARY KEY,
 	Name VARCHAR(50) NOT NULL,
 	EvilnessFactor VARCHAR(50),
 	CONSTRAINT CK_VillainsEvilnessFactor
 		CHECK (EvilnessFactor IN ('good', 'bad', 'evil', 'super evil'))
 )
 
-CREATE TABLE MinionsVillainsConnections
+CREATE TABLE MinionsVillains
 (
 	MinionID INT,
 	VillainID INT,

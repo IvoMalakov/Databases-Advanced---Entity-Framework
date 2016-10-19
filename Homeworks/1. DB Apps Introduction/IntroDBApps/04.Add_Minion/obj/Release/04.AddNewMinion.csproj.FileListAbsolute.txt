@@ -1,0 +1,6 @@
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 1 - DB Apps Introduction\IntroDBApps\04.Add_Minion\bin\Release\04.Add_Minion.exe.config
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 1 - DB Apps Introduction\IntroDBApps\04.Add_Minion\bin\Release\04.Add_Minion.exe
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 1 - DB Apps Introduction\IntroDBApps\04.Add_Minion\bin\Release\04.Add_Minion.pdb
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 1 - DB Apps Introduction\IntroDBApps\04.Add_Minion\obj\Release\04.AddNewMinion.csprojResolveAssemblyReference.cache
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 1 - DB Apps Introduction\IntroDBApps\04.Add_Minion\obj\Release\04.Add_Minion.exe
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 1 - DB Apps Introduction\IntroDBApps\04.Add_Minion\obj\Release\04.Add_Minion.pdb

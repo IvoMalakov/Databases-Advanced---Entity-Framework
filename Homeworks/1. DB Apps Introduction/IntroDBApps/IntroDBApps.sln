@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.GetVillainName", "02.Get
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.GetMinionNames", "03.GetMinionNames\03.GetMinionNames.csproj", "{1ED5FBE8-3519-4BA1-B3B9-A76F399830FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.AddNewMinion", "04.Add_Minion\04.AddNewMinion.csproj", "{B13618E2-111E-4C53-8057-A8F7418D4E51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ChangeTCasting", "05.ChangeTCasting\05.ChangeTCasting.csproj", "{E8EFFA13-0DF6-4451-8D48-9B475CA97072}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{1ED5FBE8-3519-4BA1-B3B9-A76F399830FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ED5FBE8-3519-4BA1-B3B9-A76F399830FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ED5FBE8-3519-4BA1-B3B9-A76F399830FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B13618E2-111E-4C53-8057-A8F7418D4E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B13618E2-111E-4C53-8057-A8F7418D4E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B13618E2-111E-4C53-8057-A8F7418D4E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B13618E2-111E-4C53-8057-A8F7418D4E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8EFFA13-0DF6-4451-8D48-9B475CA97072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8EFFA13-0DF6-4451-8D48-9B475CA97072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8EFFA13-0DF6-4451-8D48-9B475CA97072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8EFFA13-0DF6-4451-8D48-9B475CA97072}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
