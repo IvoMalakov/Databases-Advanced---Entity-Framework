@@ -1,0 +1,6 @@
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 2 - ADO.NET Advanced\MiniORMLive\MiniORMLive\bin\Release\MiniORMLive.exe.config
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 2 - ADO.NET Advanced\MiniORMLive\MiniORMLive\bin\Release\MiniORMLive.exe
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 2 - ADO.NET Advanced\MiniORMLive\MiniORMLive\bin\Release\MiniORMLive.pdb
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 2 - ADO.NET Advanced\MiniORMLive\MiniORMLive\obj\Release\MiniORMLive.csprojResolveAssemblyReference.cache
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 2 - ADO.NET Advanced\MiniORMLive\MiniORMLive\obj\Release\MiniORMLive.exe
+D:\Ivo\kurs po programirane\nivo 4 - C# DB Fundamentals\Databases Advanced - Entity Framework\Upragnenie 2 - ADO.NET Advanced\MiniORMLive\MiniORMLive\obj\Release\MiniORMLive.pdb
