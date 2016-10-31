@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using System.Runtime.InteropServices.ComTypes;
+using System.Net.Configuration;
+using System.Text;
 using Introduction_DB_Fundamentals.Models;
 
 namespace Introduction_DB_Fundamentals
@@ -17,7 +19,199 @@ namespace Introduction_DB_Fundamentals
             //Task5_EmployeesFromResearchAndDevelopment();
             //Task6_AddingNewAdressAndUpdatingEmployee();
             //Task7_DeleteProjectById();
-            Task8_FindEmployeesInPeriod();
+            //Task8_FindEmployeesInPeriod();
+            //Task9_AdressesByTownName();
+            //Task10_EmployeeWithId147SortedByProjectNames();
+            //Task11_DepartmentsWithMoreThan5Employees();
+            //Task15_FindLatest10Projects();
+            //Task16_IncreaseSalaries();
+            //Task17_Remove_Towns();
+            //Task18_FindEmployeeByFirstNameStartingWithSA();
+            Task19_FirstLetter();
+        }
+
+        private static void Task19_FirstLetter()
+        {
+            IList<char> wizzardFirstNameLetterList = new List<char>();
+            var context = new GringottsContext();
+
+            using (context)
+            {
+                var wizzardNames = context.WizzardDeposits
+                    .Where(c => c.DepositGroup == "Troll Chest")
+                    .Select(d => d.FirstName);
+
+                foreach (var wizzardName in wizzardNames)
+                {
+                    char letter = Convert.ToChar(wizzardName.Substring(0, 1));
+                    wizzardFirstNameLetterList.Add(letter);
+                }
+
+                var wizardsUniqueLetters = wizzardFirstNameLetterList.Distinct().OrderBy(c => c);
+
+                foreach (var letter in wizardsUniqueLetters)
+                {
+                    Console.WriteLine(letter);
+                }
+            }
+        }
+
+        private static void Task18_FindEmployeeByFirstNameStartingWithSA()
+        {
+            var context = new SoftuniContext();
+
+            using (context)
+            {
+                var employees = context.Employees
+                    .Where(c => c.FirstName.StartsWith("SA"));
+
+                foreach (var employee in employees)
+                {
+                    Console.WriteLine($"{employee.FirstName} {employee.LastName} - {employee.JobTitle} - (${employee.Salary})");
+                }
+            }
+        }
+
+        private static void Task17_Remove_Towns()
+        {
+            string townName = Console.ReadLine();
+
+            var context = new SoftuniContext();
+
+            using (context)
+            {
+                var town = context.Towns
+                    .FirstOrDefault(t => t.Name == townName);
+
+                var adresses = context.Addresses
+                                      .Where(c => c.Town.Name == townName);
+
+                    foreach (var adress in adresses)
+                    {
+                        adress.Employees.Clear();
+                    }
+
+                if (town != null)
+                {
+                    town.Addresses.Clear();
+                    context.Towns.Remove(town);
+                }                  
+                
+                Console.WriteLine("{0} adresses in {1} was deleted", adresses.Count(), townName);
+            }
+        }
+
+        private static void Task16_IncreaseSalaries()
+        {
+            var context = new SoftuniContext();
+
+            using (context)
+            {
+                var emnployees = context.Employees
+                    .Where(employee => employee.Department.Name == "Engineering"
+                                       || employee.Department.Name == "Tool Design"
+                                       || employee.Department.Name == "Marketing"
+                                       || employee.Department.Name == "Information Services");
+
+                foreach (var employee in emnployees)
+                {
+                    employee.Salary += employee.Salary*(decimal) 0.12;
+
+                    Console.WriteLine($"{employee.FirstName} {employee.LastName} (${employee.Salary:F6})");
+                }
+
+                context.SaveChanges();
+            }
+        }
+
+        private static void Task15_FindLatest10Projects()
+        {
+            var context = new SoftuniContext();
+
+            using (context)
+            {
+                var projects = context.Projects
+                    .OrderByDescending(project => project.StartDate)
+                    .Take(10)
+                    .OrderBy(project => project.Name);
+
+                StringBuilder output = new StringBuilder();
+
+                foreach (var project in projects)
+                {
+                    output.AppendLine($"{project.Name} {project.Description} {project.StartDate} {project.EndDate}");
+                }
+
+                var file = new System.IO.StreamWriter(@"../../latest10projects.txt");
+
+                using (file)
+                {
+                    file.Write(output);
+                }
+            }
+        }
+
+        private static void Task11_DepartmentsWithMoreThan5Employees()
+        {
+            var context = new SoftuniContext();
+
+            using (context)
+            {
+                var departments = context.Departments
+                    .Where(c => c.Employees.Count > 5)
+                    .OrderBy(d => d.Employees.Count);
+
+                foreach (var department in departments)
+                {
+                    Console.WriteLine($"{department.Name} {department.Manager.FirstName}");
+
+                    foreach (var employee in department.Employees)
+                    {
+                        Console.WriteLine($"{employee.FirstName} {employee.LastName} {employee.JobTitle}");
+                    }
+                }
+            }
+        }
+
+        private static void Task10_EmployeeWithId147SortedByProjectNames()
+        {
+            var context = new SoftuniContext();
+
+            using (context)
+            {
+                var employee = context.Employees
+                    .FirstOrDefault(c => c.EmployeeID == 147);
+
+                if (employee != null)
+                {
+                    Console.WriteLine($"{employee.FirstName} {employee.LastName} {employee.JobTitle}");
+
+                    var projects = employee.Projects.OrderBy(project => project.Name);
+
+                    foreach (var project in projects)
+                    {
+                        Console.WriteLine($"{project.Name}");
+                    }
+                }
+            }
+        }
+
+        private static void Task9_AdressesByTownName()
+        {
+            var context = new SoftuniContext();
+
+            using (context)
+            {
+                var adresses = context.Addresses
+                    .OrderByDescending(c => c.Employees.Count)
+                    .ThenBy(t => t.Town.Name)
+                    .Take(10);
+
+                foreach (var adress in adresses)
+                {
+                    Console.WriteLine($"{adress.AddressText}, {adress.Town.Name} - {adress.Employees.Count} employees");
+                }
+            }
         }
 
         private static void Task8_FindEmployeesInPeriod()

@@ -57,7 +57,7 @@ namespace Introduction_DB_Fundamentals
 
             modelBuilder.Entity<Employee>()
                 .HasMany(e => e.Departments)
-                .WithRequired(e => e.Employee)
+                .WithRequired(e => e.Manager)
                 .HasForeignKey(e => e.ManagerID)
                 .WillCascadeOnDelete(false);
 

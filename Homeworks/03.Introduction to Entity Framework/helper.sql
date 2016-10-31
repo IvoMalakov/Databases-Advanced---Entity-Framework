@@ -54,3 +54,20 @@ WHERE ProjectID = 2
 
 SELECT TOP 10 p.Name
 FROM Projects AS p
+
+--Task17--
+SELECT *
+FROM Towns
+
+--Task 18--
+SELECT e.FirstName, e.LastName, e.JobTitle, e.Salary
+FROM Employees AS e
+WHERE e.FirstName LIKE ('SA%')
+
+--Task 19--
+USE Gringotts
+GO
+
+SELECT DISTINCT LEFT(w.FirstName, 1)
+FROM WizzardDeposits AS w
+WHERE w.DepositGroup = 'Troll Chest'
