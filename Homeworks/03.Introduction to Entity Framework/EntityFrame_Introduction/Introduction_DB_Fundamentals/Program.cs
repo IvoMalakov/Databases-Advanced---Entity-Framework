@@ -32,24 +32,17 @@ namespace Introduction_DB_Fundamentals
 
         private static void Task19_FirstLetter()
         {
-            IList<char> wizzardFirstNameLetterList = new List<char>();
             var context = new GringottsContext();
 
             using (context)
             {
-                var wizzardNames = context.WizzardDeposits
+                var wizzardFirstNameLetters = context.WizzardDeposits
                     .Where(c => c.DepositGroup == "Troll Chest")
-                    .Select(d => d.FirstName);
+                    .Select(d => d.FirstName.Substring(0, 1))
+                    .Distinct()
+                    .OrderBy(c => c);
 
-                foreach (var wizzardName in wizzardNames)
-                {
-                    char letter = Convert.ToChar(wizzardName.Substring(0, 1));
-                    wizzardFirstNameLetterList.Add(letter);
-                }
-
-                var wizardsUniqueLetters = wizzardFirstNameLetterList.Distinct().OrderBy(c => c);
-
-                foreach (var letter in wizardsUniqueLetters)
+                foreach (var letter in wizzardFirstNameLetters)
                 {
                     Console.WriteLine(letter);
                 }
