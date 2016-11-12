@@ -1,0 +1,14 @@
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\02.UserDB\bin\Debug\02.UserDB.exe.config
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\02.UserDB\bin\Debug\02.UserDB.exe
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\02.UserDB\bin\Debug\02.UserDB.pdb
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\02.UserDB\bin\Debug\EntityFramework.dll
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\02.UserDB\bin\Debug\EntityFramework.SqlServer.dll
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\02.UserDB\bin\Debug\EntityFramework.xml
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\02.UserDB\bin\Debug\EntityFramework.SqlServer.xml
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\02.UserDB\obj\Debug\02.UserDB.csprojResolveAssemblyReference.cache
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\02.UserDB\obj\Debug\02.UserDB.exe
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\02.UserDB\obj\Debug\02.UserDB.pdb
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\02.UserDB\obj\Debug\UserDB.Migrations.FirstMigration.resources
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\02.UserDB\obj\Debug\02.UserDB.csproj.GenerateResource.Cache
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\02.UserDB\obj\Debug\UserDB.Migrations.AddTownsToDatabase.resources
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\02.UserDB\obj\Debug\UserDB.Migrations.FirstNameLastNameAdded.resources

@@ -1,0 +1,10 @@
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\03.SalesDatabase\bin\Debug\03.SalesDatabase.exe.config
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\03.SalesDatabase\bin\Debug\03.SalesDatabase.exe
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\03.SalesDatabase\bin\Debug\03.SalesDatabase.pdb
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\03.SalesDatabase\bin\Debug\EntityFramework.dll
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\03.SalesDatabase\bin\Debug\EntityFramework.SqlServer.dll
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\03.SalesDatabase\bin\Debug\EntityFramework.xml
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\03.SalesDatabase\bin\Debug\EntityFramework.SqlServer.xml
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\03.SalesDatabase\obj\Debug\03.SalesDatabase.csprojResolveAssemblyReference.cache
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\03.SalesDatabase\obj\Debug\03.SalesDatabase.exe
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\03.SalesDatabase\obj\Debug\03.SalesDatabase.pdb

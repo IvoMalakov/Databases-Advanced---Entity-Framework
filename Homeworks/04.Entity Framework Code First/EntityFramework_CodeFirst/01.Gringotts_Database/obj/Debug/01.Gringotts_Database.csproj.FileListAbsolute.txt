@@ -1,0 +1,10 @@
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\01.Gringotts_Database\bin\Debug\01.Gringotts_Database.exe.config
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\01.Gringotts_Database\bin\Debug\01.Gringotts_Database.exe
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\01.Gringotts_Database\bin\Debug\01.Gringotts_Database.pdb
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\01.Gringotts_Database\bin\Debug\EntityFramework.dll
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\01.Gringotts_Database\bin\Debug\EntityFramework.SqlServer.dll
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\01.Gringotts_Database\bin\Debug\EntityFramework.xml
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\01.Gringotts_Database\bin\Debug\EntityFramework.SqlServer.xml
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\01.Gringotts_Database\obj\Debug\01.Gringotts_Database.csprojResolveAssemblyReference.cache
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\01.Gringotts_Database\obj\Debug\01.Gringotts_Database.exe
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\01.Gringotts_Database\obj\Debug\01.Gringotts_Database.pdb
