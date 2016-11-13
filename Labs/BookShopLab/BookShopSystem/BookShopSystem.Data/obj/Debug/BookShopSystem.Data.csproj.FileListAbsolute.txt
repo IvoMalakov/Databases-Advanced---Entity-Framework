@@ -1,0 +1,12 @@
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.Data\bin\Debug\BookShopSystem.Data.dll.config
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.Data\bin\Debug\BookShopSystem.Data.dll
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.Data\bin\Debug\BookShopSystem.Data.pdb
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.Data\bin\Debug\BookShopSystem.Models.dll
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.Data\bin\Debug\EntityFramework.dll
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.Data\bin\Debug\BookShopSystem.Models.pdb
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.Data\bin\Debug\EntityFramework.xml
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.Data\obj\Debug\BookShopSystem.Data.csprojResolveAssemblyReference.cache
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.Data\obj\Debug\BookShopSystem.Data.dll
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.Data\obj\Debug\BookShopSystem.Data.pdb

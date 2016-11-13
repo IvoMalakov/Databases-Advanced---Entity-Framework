@@ -1,0 +1,14 @@
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.ConsoleClient\bin\Debug\BookShopSystem.ConsoleClient.exe.config
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.ConsoleClient\bin\Debug\BookShopSystem.ConsoleClient.exe
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.ConsoleClient\bin\Debug\BookShopSystem.ConsoleClient.pdb
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.ConsoleClient\bin\Debug\BookShopSystem.Data.dll
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.ConsoleClient\bin\Debug\BookShopSystem.Models.dll
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.ConsoleClient\bin\Debug\EntityFramework.dll
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.ConsoleClient\bin\Debug\BookShopSystem.Data.pdb
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.ConsoleClient\bin\Debug\BookShopSystem.Models.pdb
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.ConsoleClient\bin\Debug\EntityFramework.xml
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.ConsoleClient\obj\Debug\BookShopSystem.ConsoleClient.csprojResolveAssemblyReference.cache
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.ConsoleClient\obj\Debug\BookShopSystem.ConsoleClient.exe
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.ConsoleClient\obj\Debug\BookShopSystem.ConsoleClient.pdb

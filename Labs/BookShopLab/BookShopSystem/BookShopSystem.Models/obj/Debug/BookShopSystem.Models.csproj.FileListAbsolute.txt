@@ -1,0 +1,5 @@
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.Models\bin\Debug\BookShopSystem.Models.dll
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.Models\bin\Debug\BookShopSystem.Models.pdb
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.Models\obj\Debug\BookShopSystem.Models.csprojResolveAssemblyReference.cache
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.Models\obj\Debug\BookShopSystem.Models.dll
+D:\DB Advanced\BookShopLab\BookShopSystem\BookShopSystem.Models\obj\Debug\BookShopSystem.Models.pdb
