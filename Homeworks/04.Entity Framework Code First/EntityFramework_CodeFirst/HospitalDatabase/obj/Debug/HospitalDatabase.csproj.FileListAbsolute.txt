@@ -1,0 +1,13 @@
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\HospitalDatabase\bin\Debug\HospitalDatabase.exe.config
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\HospitalDatabase\bin\Debug\HospitalDatabase.exe
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\HospitalDatabase\bin\Debug\HospitalDatabase.pdb
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\HospitalDatabase\bin\Debug\EntityFramework.dll
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\HospitalDatabase\bin\Debug\EntityFramework.SqlServer.dll
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\HospitalDatabase\bin\Debug\EntityFramework.xml
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\HospitalDatabase\bin\Debug\EntityFramework.SqlServer.xml
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\HospitalDatabase\obj\Debug\HospitalDatabase.csprojResolveAssemblyReference.cache
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\HospitalDatabase\obj\Debug\HospitalDatabase.exe
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\HospitalDatabase\obj\Debug\HospitalDatabase.pdb
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\HospitalDatabase\obj\Debug\HospitalDatabase.Migrations.InitialCreate.resources
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\HospitalDatabase\obj\Debug\HospitalDatabase.csproj.GenerateResource.Cache
+D:\DB Advanced\EnetityFrameWork_CodeFirst\EntityFramework_CodeFirst\HospitalDatabase\obj\Debug\HospitalDatabase.Migrations.FirstMigration.resources

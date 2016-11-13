@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Hotel_Database", "03.Hot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.SalesDatabase", "03.SalesDatabase\03.SalesDatabase.csproj", "{33D42B36-9C99-4002-A843-725669F08A89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalDatabase", "HospitalDatabase\HospitalDatabase.csproj", "{8E9001DB-D5A4-4636-A322-7C4A022B3018}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{33D42B36-9C99-4002-A843-725669F08A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33D42B36-9C99-4002-A843-725669F08A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33D42B36-9C99-4002-A843-725669F08A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E9001DB-D5A4-4636-A322-7C4A022B3018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9001DB-D5A4-4636-A322-7C4A022B3018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9001DB-D5A4-4636-A322-7C4A022B3018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9001DB-D5A4-4636-A322-7C4A022B3018}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
