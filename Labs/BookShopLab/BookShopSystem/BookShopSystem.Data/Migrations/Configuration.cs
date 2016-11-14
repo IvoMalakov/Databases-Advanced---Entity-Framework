@@ -15,6 +15,7 @@ namespace BookShopSystem.Data.Migrations
         {
             AutomaticMigrationsEnabled = true;
             ContextKey = "BookShopSystem.Data.BookShopContext";
+            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(BookShopContext context)

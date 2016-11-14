@@ -17,10 +17,12 @@
     public class Book
     {
         private ICollection<Category> categories;
+        private ICollection<Book> realatedBooks;
 
         public Book()
         {
             this.categories = new HashSet<Category>();
+            this.realatedBooks = new HashSet<Book>();
         }
 
         [Key]
@@ -53,5 +55,11 @@
         }
 
         public AgeRestriction AgeRestriction { get; set; }
+
+        public virtual ICollection<Book> RelatedBooks
+        {
+            get { return this.realatedBooks; }
+            set { this.realatedBooks = value; }
+        }
     }
 }

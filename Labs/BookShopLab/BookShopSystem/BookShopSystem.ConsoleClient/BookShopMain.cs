@@ -13,14 +13,40 @@
         {
             CultureInfo.DefaultThreadCurrentCulture = CultureInfo.InstalledUICulture;
             BookShopContext context = new BookShopContext();
-
-            //FistDataBaseInitialisation(context);
-
+          
             GetAllBooksAfter2000(context);
             GetAllAuthoursWithBookBefore1990(context);
             GetAllAuthoursOrderderByNumberOfTheirBooksDescending(context);
             GetAllBooksFromAuthorGeorgePowell(context);
             GetCategoriesAnd3BooksOfEach(context);
+            Get3BooksAndSetThemAsRelated(context);
+        }
+
+        private static void Get3BooksAndSetThemAsRelated(BookShopContext context)
+        {
+            var books = context.Books
+                .Take(3)
+                .ToList();
+
+            books[0].RelatedBooks.Add(books[1]);
+            books[1].RelatedBooks.Add(books[0]);
+            books[0].RelatedBooks.Add(books[2]);
+            books[2].RelatedBooks.Add(books[0]);
+
+            context.SaveChanges();
+
+            var booksFromQuery = context.Books
+                .Take(3);
+
+            foreach (var book in booksFromQuery)
+            {
+                Console.WriteLine("--{0}", book.Title);
+
+                foreach (var relatedbook in book.RelatedBooks)
+                {
+                    Console.WriteLine(relatedbook.Title);
+                }
+            }
         }
 
         private static void GetCategoriesAnd3BooksOfEach(BookShopContext context)
@@ -98,16 +124,6 @@
             {
                 Console.WriteLine(wantedBook.Title);
             }
-        }
-
-        private static void FistDataBaseInitialisation(BookShopContext context)
-        {
-            var migrationStrategy = new DropCreateDatabaseAlways<BookShopContext>();
-            Database.SetInitializer<BookShopContext>(migrationStrategy);
-
-            context.Database.Initialize(true);
-
-            var bookCount = context.Books.Count();
-        }
+        }      
     }
 }

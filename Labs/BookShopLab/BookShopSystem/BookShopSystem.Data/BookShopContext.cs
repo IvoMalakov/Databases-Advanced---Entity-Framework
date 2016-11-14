@@ -10,6 +10,22 @@ namespace BookShopSystem.Data
         public BookShopContext()
             : base("name=BookShopContext")
         {
+            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<BookShopContext>());
+        }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Book>()
+                .HasMany(book => book.RelatedBooks)
+                .WithMany()
+                .Map(configuration =>
+                {
+                    configuration.MapLeftKey("BookId");
+                    configuration.MapRightKey("RelatedBookId");
+                    configuration.ToTable("RelatedBooks");
+                });
+
+            base.OnModelCreating(modelBuilder);
         }
 
         public IDbSet<Book> Books { get; set; }
