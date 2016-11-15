@@ -1,0 +1,5 @@
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Models\bin\Debug\StudentSystem.Models.dll
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Models\bin\Debug\StudentSystem.Models.pdb
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Models\obj\Debug\StudentSystem.Models.csprojResolveAssemblyReference.cache
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Models\obj\Debug\StudentSystem.Models.dll
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Models\obj\Debug\StudentSystem.Models.pdb

@@ -1,0 +1,14 @@
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Client\bin\Debug\StudentSystem.Client.exe.config
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Client\bin\Debug\StudentSystem.Client.exe
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Client\bin\Debug\StudentSystem.Client.pdb
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Client\bin\Debug\EntityFramework.dll
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Client\bin\Debug\EntityFramework.SqlServer.dll
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Client\bin\Debug\StudentSystem.Data.dll
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Client\bin\Debug\StudentSystem.Models.dll
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Client\bin\Debug\StudentSystem.Data.pdb
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Client\bin\Debug\StudentSystem.Models.pdb
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Client\bin\Debug\EntityFramework.xml
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Client\bin\Debug\EntityFramework.SqlServer.xml
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Client\obj\Debug\StudentSystem.Client.csprojResolveAssemblyReference.cache
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Client\obj\Debug\StudentSystem.Client.exe
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Client\obj\Debug\StudentSystem.Client.pdb
