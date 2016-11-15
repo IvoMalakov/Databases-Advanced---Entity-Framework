@@ -12,3 +12,4 @@ D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Data\obj\De
 D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Data\obj\Debug\StudentSystem.Data.pdb
 D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Data\obj\Debug\StudentSystem.Data.Migrations.InitialCreate.resources
 D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Data\obj\Debug\StudentSystem.Data.csproj.GenerateResource.Cache
+D:\DB Advanced\EntityFrameWork_Relations\StudentSystem\StudentSystem.Data\obj\Debug\StudentSystem.Data.Migrations.FirstMigration.resources

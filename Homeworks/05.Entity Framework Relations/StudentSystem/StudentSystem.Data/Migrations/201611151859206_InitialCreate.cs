@@ -20,19 +20,19 @@ namespace StudentSystem.Data.Migrations
                 .PrimaryKey(t => t.Id);
             
             CreateTable(
-                "dbo.Homework",
+                "dbo.Homeworks",
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
                         Content = c.String(nullable: false),
                         ContentType = c.Int(nullable: false),
                         SubmissionDate = c.DateTime(nullable: false),
-                        CourseId = c.Int(nullable: false),
-                        StudentId = c.Int(nullable: false),
+                        CourseId = c.Int(),
+                        StudentId = c.Int(),
                     })
                 .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.Courses", t => t.CourseId, cascadeDelete: true)
-                .ForeignKey("dbo.Students", t => t.StudentId, cascadeDelete: true)
+                .ForeignKey("dbo.Courses", t => t.CourseId)
+                .ForeignKey("dbo.Students", t => t.StudentId)
                 .Index(t => t.CourseId)
                 .Index(t => t.StudentId);
             
@@ -56,10 +56,10 @@ namespace StudentSystem.Data.Migrations
                         Name = c.String(nullable: false),
                         ResorceType = c.Int(nullable: false),
                         Url = c.String(nullable: false),
-                        CourseId = c.Int(nullable: false),
+                        CourseId = c.Int(),
                     })
                 .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.Courses", t => t.CourseId, cascadeDelete: true)
+                .ForeignKey("dbo.Courses", t => t.CourseId)
                 .Index(t => t.CourseId);
             
             CreateTable(
@@ -80,19 +80,19 @@ namespace StudentSystem.Data.Migrations
         public override void Down()
         {
             DropForeignKey("dbo.Resources", "CourseId", "dbo.Courses");
-            DropForeignKey("dbo.Homework", "StudentId", "dbo.Students");
+            DropForeignKey("dbo.Homeworks", "StudentId", "dbo.Students");
             DropForeignKey("dbo.StudentCourses", "Course_Id", "dbo.Courses");
             DropForeignKey("dbo.StudentCourses", "Student_Id", "dbo.Students");
-            DropForeignKey("dbo.Homework", "CourseId", "dbo.Courses");
+            DropForeignKey("dbo.Homeworks", "CourseId", "dbo.Courses");
             DropIndex("dbo.StudentCourses", new[] { "Course_Id" });
             DropIndex("dbo.StudentCourses", new[] { "Student_Id" });
             DropIndex("dbo.Resources", new[] { "CourseId" });
-            DropIndex("dbo.Homework", new[] { "StudentId" });
-            DropIndex("dbo.Homework", new[] { "CourseId" });
+            DropIndex("dbo.Homeworks", new[] { "StudentId" });
+            DropIndex("dbo.Homeworks", new[] { "CourseId" });
             DropTable("dbo.StudentCourses");
             DropTable("dbo.Resources");
             DropTable("dbo.Students");
-            DropTable("dbo.Homework");
+            DropTable("dbo.Homeworks");
             DropTable("dbo.Courses");
         }
     }

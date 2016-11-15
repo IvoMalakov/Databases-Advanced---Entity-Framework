@@ -40,11 +40,9 @@
         [Required]
         public DateTime SubmissionDate { get; set; }
 
-        [ForeignKey("Course")]
-        public int CourseId { get; set; }
+        public int? CourseId { get; set; }
 
-        [ForeignKey("Student")]
-        public int StudentId { get; set; }
+        public int? StudentId { get; set; }
 
         public virtual Course Course { get; set; }
 
