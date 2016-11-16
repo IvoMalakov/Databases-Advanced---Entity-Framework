@@ -9,6 +9,7 @@
     {
         private string name;
         private decimal price;
+        private string description;
         private ICollection<Student> students;
         private ICollection<Resource> resources;
         private ICollection<Homework> homeworks;
@@ -36,6 +37,22 @@
                 }
 
                 this.name = value;
+            }
+        }
+
+        [Required]
+        public string Description
+        {
+            get { return this.description; }
+
+            set
+            {
+                if (!ValidationClass.CheckIfDescriptionIsValid(value))
+                {
+                    throw new ArgumentException("Course desription should be between 3 and 1000 symbols long");
+                }
+
+                this.description = value;
             }
         }
 

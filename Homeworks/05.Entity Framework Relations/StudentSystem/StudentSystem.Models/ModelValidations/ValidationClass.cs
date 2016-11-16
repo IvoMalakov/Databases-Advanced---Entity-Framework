@@ -78,5 +78,15 @@
 
             return true;
         }
+
+        public static bool CheckIfDescriptionIsValid(string description)
+        {
+            if ((description.Length < 3) || (description.Length > 1000))
+            {
+                return false;
+            }
+
+            return true;
+        }
     }
 }

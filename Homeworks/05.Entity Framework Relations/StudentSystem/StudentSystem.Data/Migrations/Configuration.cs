@@ -1,3 +1,5 @@
+using System.Diagnostics;
+
 namespace StudentSystem.Data.Migrations
 {
     using System;
@@ -14,7 +16,7 @@ namespace StudentSystem.Data.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            AutomaticMigrationDataLossAllowed = true;
+            AutomaticMigrationDataLossAllowed = false;
             ContextKey = "StudentSystem.Data.StudentSystemContext";
         }
 
@@ -66,6 +68,7 @@ namespace StudentSystem.Data.Migrations
                     new Course()
                     {
                         Name = names[random.Next(names.Length)],
+                        Description = "Description" + (i + 1),
                         StartDate = DateTime.Now,
                         EndDate = new DateTime((DateTime.Now.Year + 5), DateTime.Now.Month, DateTime.Now.Day),
                         Price = (decimal)random.NextDouble(),                  
