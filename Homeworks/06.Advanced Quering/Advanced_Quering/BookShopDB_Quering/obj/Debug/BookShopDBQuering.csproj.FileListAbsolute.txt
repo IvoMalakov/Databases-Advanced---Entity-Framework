@@ -1,0 +1,14 @@
+D:\DB Advanced\Advanced Quering\Advanced_Quering\BookShopDB_Quering\bin\Debug\BookShopDB_Quering.exe.config
+D:\DB Advanced\Advanced Quering\Advanced_Quering\BookShopDB_Quering\bin\Debug\BookShopDB_Quering.exe
+D:\DB Advanced\Advanced Quering\Advanced_Quering\BookShopDB_Quering\bin\Debug\BookShopDB_Quering.pdb
+D:\DB Advanced\Advanced Quering\Advanced_Quering\BookShopDB_Quering\bin\Debug\BookShopSystem.Data.dll
+D:\DB Advanced\Advanced Quering\Advanced_Quering\BookShopDB_Quering\bin\Debug\BookShopSystem.Models.dll
+D:\DB Advanced\Advanced Quering\Advanced_Quering\BookShopDB_Quering\bin\Debug\EntityFramework.dll
+D:\DB Advanced\Advanced Quering\Advanced_Quering\BookShopDB_Quering\bin\Debug\EntityFramework.SqlServer.dll
+D:\DB Advanced\Advanced Quering\Advanced_Quering\BookShopDB_Quering\bin\Debug\BookShopSystem.Data.pdb
+D:\DB Advanced\Advanced Quering\Advanced_Quering\BookShopDB_Quering\bin\Debug\BookShopSystem.Models.pdb
+D:\DB Advanced\Advanced Quering\Advanced_Quering\BookShopDB_Quering\bin\Debug\EntityFramework.xml
+D:\DB Advanced\Advanced Quering\Advanced_Quering\BookShopDB_Quering\bin\Debug\EntityFramework.SqlServer.xml
+D:\DB Advanced\Advanced Quering\Advanced_Quering\BookShopDB_Quering\obj\Debug\BookShopDBQuering.csprojResolveAssemblyReference.cache
+D:\DB Advanced\Advanced Quering\Advanced_Quering\BookShopDB_Quering\obj\Debug\BookShopDB_Quering.exe
+D:\DB Advanced\Advanced Quering\Advanced_Quering\BookShopDB_Quering\obj\Debug\BookShopDB_Quering.pdb
