@@ -2,6 +2,7 @@
 {
     using System;
     using System.Globalization;
+    using System.Collections.Generic;
     using System.Linq;
     using System.Data;
     using System.Data.SqlClient;
@@ -9,6 +10,7 @@
     using BookShopSystem.Models;
     public class MainClass
     {
+
         static void Main()
         {
             var context = new BookShopContext();
@@ -18,7 +20,133 @@
             //PrintBooksByPrice(context);
             //PrintNotReleasedBooks(context);
             //PrintBookTitlesByCategory(context);
-            PrintBooksRelasedBeforeDate(context);
+            //PrintBooksRelasedBeforeDate(context);
+            //SearchAuthors(context);
+            //SearchBooks(context);
+            //SearchBookTitles(context);
+            //CountBooks(context);
+            //PrintTotalNumberOfBookCopiesByAuthor(context);
+            PrintBookByCategory(context);
+        }
+
+        private static void PrintBookByCategory(BookShopContext context)
+        {
+            IDictionary<string, decimal> categoriesProfits = new Dictionary<string, decimal>();
+
+            var categories = context.Categories;
+
+            foreach (Category category in categories)
+            {
+                decimal totalProfit = 0m;
+
+                var books = category.Books;
+
+                foreach (Book book in books)
+                {
+                    decimal profitPerBook = book.Copies * book.Price;
+                    totalProfit += profitPerBook;
+                }
+
+                categoriesProfits[category.Name] = totalProfit;
+            }
+
+            var orederedProfitsByCategorie = categoriesProfits
+                                             .OrderByDescending(c => c.Value)
+                                             .ThenBy(c => c.Key);
+
+            foreach (var category in orederedProfitsByCategorie)
+            {
+                Console.WriteLine("{0} - ${1}", category.Key, category.Value); 
+            }
+        }
+
+        private static void PrintTotalNumberOfBookCopiesByAuthor(BookShopContext context)
+        {
+            IDictionary<string, int> authorsDictionary = new Dictionary<string, int>();
+
+            var authors = context.Authors;
+
+            foreach (Author author in authors)
+            {
+                int sum = 0;
+
+                var wantedBookCopies = author.Books
+                    .Select(book => book.Copies);
+
+                foreach (int bookCopie in wantedBookCopies)
+                {
+                    sum += bookCopie;
+                }
+
+                string fullName = author.FirstName + " " + author.LastName;
+
+                authorsDictionary[fullName] = sum;
+            }
+
+            var orderedAuthorsDictionary = authorsDictionary.OrderByDescending(c => c.Value);
+
+            foreach (var author in orderedAuthorsDictionary)
+            {
+                Console.WriteLine("{0} - {1}", author.Key, author.Value);
+            }
+        }
+
+        private static void CountBooks(BookShopContext context)
+        {
+            int inputNumber = int.Parse(Console.ReadLine());
+
+            var wantedBooks = context.Books
+                .Where(book => book.Title.Length > inputNumber)
+                .ToList();
+
+            Console.WriteLine(wantedBooks.Count);
+        }
+
+        private static void SearchBookTitles(BookShopContext context)
+        {
+            string input = Console.ReadLine();
+
+            var wantedBookTitles = context.Books
+                .Where(book => book.Author.LastName.StartsWith(input))
+                .Select(book => book.Title);
+
+            foreach (string title in wantedBookTitles)
+            {
+                Console.WriteLine(title);
+            }
+        }
+
+        private static void SearchBooks(BookShopContext context)
+        {
+            string input = Console.ReadLine().ToLower();
+
+            var wantedBookTitles = context.Books
+                .Where(book => book.Title.Contains(input))
+                .Select(book => book.Title);
+
+            foreach (string title in wantedBookTitles)
+            {
+                Console.WriteLine(title);
+            }
+        }
+
+        private static void SearchAuthors(BookShopContext context)
+        {
+            string input = Console.ReadLine();
+
+            string nativeQueryString = "SELECT (a.FirstName + ' ' + a.LastName) AS FullName " +
+                                       "FROM Authors AS a " +
+                                       "WHERE a.FirstName LIKE @searchString";
+
+            SqlParameter searchString = new SqlParameter("@searchString", SqlDbType.NVarChar);
+            searchString.Value = "%" + input;
+
+            var wantedAuthors = context.Database.SqlQuery<string>(nativeQueryString, searchString);
+
+            foreach (string author in wantedAuthors)
+            {
+                Console.WriteLine(author);
+            }
         }
 
         private static void PrintBooksRelasedBeforeDate(BookShopContext context)
