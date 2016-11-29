@@ -1,0 +1,5 @@
+D:\DB Advanced\JSON Processing\ProductsShop\ProductsShop.Models\bin\Debug\ProductsShop.Models.dll
+D:\DB Advanced\JSON Processing\ProductsShop\ProductsShop.Models\bin\Debug\ProductsShop.Models.pdb
+D:\DB Advanced\JSON Processing\ProductsShop\ProductsShop.Models\obj\Debug\ProductsShop.Models.csprojResolveAssemblyReference.cache
+D:\DB Advanced\JSON Processing\ProductsShop\ProductsShop.Models\obj\Debug\ProductsShop.Models.dll
+D:\DB Advanced\JSON Processing\ProductsShop\ProductsShop.Models\obj\Debug\ProductsShop.Models.pdb
