@@ -1,0 +1,5 @@
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Models\bin\Debug\CarDealer.Models.dll
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Models\bin\Debug\CarDealer.Models.pdb
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Models\obj\Debug\CarDealer.Models.csprojResolveAssemblyReference.cache
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Models\obj\Debug\CarDealer.Models.dll
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Models\obj\Debug\CarDealer.Models.pdb

@@ -1,0 +1,12 @@
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Data\bin\Debug\CarDealer.Data.dll.config
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Data\bin\Debug\CarDealer.Data.dll
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Data\bin\Debug\CarDealer.Data.pdb
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Data\bin\Debug\CarDealer.Models.dll
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Data\bin\Debug\EntityFramework.dll
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Data\bin\Debug\CarDealer.Models.pdb
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Data\bin\Debug\EntityFramework.xml
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Data\obj\Debug\CarDealer.Data.csprojResolveAssemblyReference.cache
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Data\obj\Debug\CarDealer.Data.dll
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Data\obj\Debug\CarDealer.Data.pdb

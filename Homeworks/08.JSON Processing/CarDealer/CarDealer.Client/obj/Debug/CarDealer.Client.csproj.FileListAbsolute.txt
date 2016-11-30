@@ -1,0 +1,16 @@
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Client\bin\Debug\CarDealer.Client.exe.config
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Client\bin\Debug\CarDealer.Client.exe
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Client\bin\Debug\CarDealer.Client.pdb
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Client\bin\Debug\CarDealer.Data.dll
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Client\bin\Debug\CarDealer.Models.dll
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Client\bin\Debug\EntityFramework.dll
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Client\bin\Debug\EntityFramework.SqlServer.dll
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Client\bin\Debug\Newtonsoft.Json.dll
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Client\bin\Debug\CarDealer.Data.pdb
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Client\bin\Debug\CarDealer.Models.pdb
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Client\bin\Debug\EntityFramework.xml
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Client\bin\Debug\EntityFramework.SqlServer.xml
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Client\bin\Debug\Newtonsoft.Json.xml
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Client\obj\Debug\CarDealer.Client.csprojResolveAssemblyReference.cache
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Client\obj\Debug\CarDealer.Client.exe
+D:\DB Advanced\JSON Processing\CarDealer\CarDealer.Client\obj\Debug\CarDealer.Client.pdb
