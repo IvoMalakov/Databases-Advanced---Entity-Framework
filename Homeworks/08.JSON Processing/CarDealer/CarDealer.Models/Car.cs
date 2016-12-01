@@ -22,7 +22,7 @@
 
         public string Model { get; set; }
 
-        public double? TravelledDistance { get; set; }
+        public float? TravelledDistance { get; set; }
 
         public virtual ICollection<Part> Parts
         {
