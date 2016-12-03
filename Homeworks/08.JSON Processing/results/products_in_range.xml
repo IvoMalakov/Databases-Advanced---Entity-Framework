@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<products>
+  <product name="Ketorolac Tromethamine" price="608.18" seller=" Mitchell" />
+  <product name="AMARANTHUS PALMERI POLLEN" price="623.16" seller=" Lawson" />
+  <product name="Ampicillin" price="674.63" seller="Nicole Martinez" />
+  <product name="Prostate" price="716.05" seller=" Moreno" />
+  <product name="Pleo Lat" price="720.08" seller="Patricia Fuller" />
+  <product name="Meloxicam" price="809.18" seller="Fred Allen" />
+  <product name="Clarins Paris Skin Illusion - 114 cappuccino" price="811.42" seller=" Moreno" />
+  <product name="EPZICOM" price="895.65" seller=" Harrison" />
+  <product name="Aspirin" price="925.45" seller="Patricia Fuller" />
+  <product name="Care One Hemorrhoidal" price="932.18" seller="Gloria Alexander" />
+  <product name="pain relief" price="938.23" seller="Brandon Fuller" />
+  <product name="Clearskin" price="968.59" seller="Sandra Riley" />
+</products>

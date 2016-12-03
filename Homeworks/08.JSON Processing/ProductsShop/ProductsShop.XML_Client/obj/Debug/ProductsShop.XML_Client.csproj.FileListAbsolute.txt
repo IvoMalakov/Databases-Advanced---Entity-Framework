@@ -1,0 +1,14 @@
+D:\DB Advanced\JSON Processing\ProductsShop\ProductsShop.XML_Client\bin\Debug\ProductsShop.XML_Client.exe.config
+D:\DB Advanced\JSON Processing\ProductsShop\ProductsShop.XML_Client\bin\Debug\ProductsShop.XML_Client.exe
+D:\DB Advanced\JSON Processing\ProductsShop\ProductsShop.XML_Client\bin\Debug\ProductsShop.XML_Client.pdb
+D:\DB Advanced\JSON Processing\ProductsShop\ProductsShop.XML_Client\bin\Debug\EntityFramework.dll
+D:\DB Advanced\JSON Processing\ProductsShop\ProductsShop.XML_Client\bin\Debug\EntityFramework.SqlServer.dll
+D:\DB Advanced\JSON Processing\ProductsShop\ProductsShop.XML_Client\bin\Debug\ProductsShop.Data.dll
+D:\DB Advanced\JSON Processing\ProductsShop\ProductsShop.XML_Client\bin\Debug\ProductsShop.Models.dll
+D:\DB Advanced\JSON Processing\ProductsShop\ProductsShop.XML_Client\bin\Debug\ProductsShop.Data.pdb
+D:\DB Advanced\JSON Processing\ProductsShop\ProductsShop.XML_Client\bin\Debug\ProductsShop.Models.pdb
+D:\DB Advanced\JSON Processing\ProductsShop\ProductsShop.XML_Client\bin\Debug\EntityFramework.xml
+D:\DB Advanced\JSON Processing\ProductsShop\ProductsShop.XML_Client\bin\Debug\EntityFramework.SqlServer.xml
+D:\DB Advanced\JSON Processing\ProductsShop\ProductsShop.XML_Client\obj\Debug\ProductsShop.XML_Client.csprojResolveAssemblyReference.cache
+D:\DB Advanced\JSON Processing\ProductsShop\ProductsShop.XML_Client\obj\Debug\ProductsShop.XML_Client.exe
+D:\DB Advanced\JSON Processing\ProductsShop\ProductsShop.XML_Client\obj\Debug\ProductsShop.XML_Client.pdb

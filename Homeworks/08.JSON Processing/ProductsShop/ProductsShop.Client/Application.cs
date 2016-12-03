@@ -13,12 +13,14 @@
         {
            ProductsShopContext context = new ProductsShopContext();
 
+           //context.Database.Initialize(true);
            //SeedDataBase(context);
 
            //ProductInRange(context);
            //SuccessfullySoldProducts(context);
            //CategoriesByProductCount(context);
-           UsersAndProducts(context);
+           //UsersAndProducts(context);
+
         }
 
         private static void UsersAndProducts(ProductsShopContext context)
@@ -108,11 +110,9 @@
         {
             Random rnd = new Random();
 
-            //SeedUsers(context);
-            //SeedProducts(context, rnd);
+            SeedUsers(context);
+            SeedProducts(context, rnd);
             SeedCategories(context, rnd);
-
-            context.SaveChanges();
         }
 
         private static void SeedCategories(ProductsShopContext context, Random rnd)
@@ -123,6 +123,8 @@
 
             importedCategories = AddProductsToCategories(context, importedCategories, rnd);
             context.Categories.AddRange(importedCategories);
+
+            context.SaveChanges();
         }
 
         private static IEnumerable<Category> AddProductsToCategories(ProductsShopContext context ,IEnumerable<Category> importedCategories, Random rnd)
@@ -154,6 +156,7 @@
             importedProducts = GenerateBuyers(users, importedProducts, rnd);
 
             context.Products.AddRange(importedProducts);
+            context.SaveChanges();
         }
 
         private static IEnumerable<Product> GenerateBuyers(User[] users, IEnumerable<Product> importedProducts, Random rnd)
@@ -193,6 +196,7 @@
             string jsonUsers = File.ReadAllText("../../../../resources/users.json");
             IEnumerable<User> importedUsers = JsonConvert.DeserializeObject<IEnumerable<User>>(jsonUsers);
             context.Users.AddRange(importedUsers);
+            context.SaveChanges();
         }
     }
 }
