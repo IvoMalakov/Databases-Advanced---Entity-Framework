@@ -20,9 +20,9 @@
 
         private static void ExecuteXmlQueries(ProductsShopContext context)
         {
-            //ProdctsInRange(context);
-            //SuccessfullySoldProducts(context);
-            //CategoriesByProductCount(context);
+            ProdctsInRange(context);
+            SuccessfullySoldProducts(context);
+            CategoriesByProductCount(context);
             UsersAndProducts(context);
         }
 

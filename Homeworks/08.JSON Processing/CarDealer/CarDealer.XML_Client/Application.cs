@@ -15,7 +15,9 @@
             CarDealerContext context = new CarDealerContext();
             //InitializeDatabase(context);
 
-            SeedDatabse(context);
+            //SeedDatabse(context);
+
+            ExecuteQueries(context);
         }
 
         private static void SeedDatabse(CarDealerContext context)
@@ -27,17 +29,15 @@
             //SeedCars(context, rnd);
             //SeedCustomers(context);
             //SeedSales(context, rnd);
-
-            ExecuteQueries(context);
         }
 
         private static void ExecuteQueries(CarDealerContext context)
         {
-            //OrderedCustomers(context);
-            //CarsFromMakeToyota(context);
-            //LocalSuppliers(context);
-            //CarsWithTheirListOfParts(context);
-            //TotalSalesByCustomer(context);
+            OrderedCustomers(context);
+            CarsFromMakeToyota(context);
+            LocalSuppliers(context);
+            CarsWithTheirListOfParts(context);
+            TotalSalesByCustomer(context);
             SalesWithAppliedDiscount(context);
         }
 
