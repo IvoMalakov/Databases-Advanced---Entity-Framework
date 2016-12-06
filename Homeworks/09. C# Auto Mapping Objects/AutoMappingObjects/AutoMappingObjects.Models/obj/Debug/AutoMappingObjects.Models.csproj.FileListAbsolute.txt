@@ -1,0 +1,5 @@
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Models\bin\Debug\AutoMappingObjects.Models.dll
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Models\bin\Debug\AutoMappingObjects.Models.pdb
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Models\obj\Debug\AutoMappingObjects.Models.csprojResolveAssemblyReference.cache
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Models\obj\Debug\AutoMappingObjects.Models.dll
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Models\obj\Debug\AutoMappingObjects.Models.pdb

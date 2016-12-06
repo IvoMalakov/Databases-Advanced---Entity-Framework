@@ -1,0 +1,16 @@
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Client\bin\Debug\AutoMappingObjects.Client.exe.config
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Client\bin\Debug\AutoMappingObjects.Client.exe
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Client\bin\Debug\AutoMappingObjects.Client.pdb
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Client\bin\Debug\AutoMapper.dll
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Client\bin\Debug\AutoMappingObjects.Data.dll
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Client\bin\Debug\AutoMappingObjects.Models.dll
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Client\bin\Debug\EntityFramework.dll
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Client\bin\Debug\EntityFramework.SqlServer.dll
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Client\bin\Debug\AutoMappingObjects.Data.pdb
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Client\bin\Debug\AutoMappingObjects.Models.pdb
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Client\bin\Debug\AutoMapper.xml
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Client\bin\Debug\EntityFramework.xml
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Client\bin\Debug\EntityFramework.SqlServer.xml
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Client\obj\Debug\AutoMappingObjects.Client.csprojResolveAssemblyReference.cache
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Client\obj\Debug\AutoMappingObjects.Client.exe
+D:\DB Advanced\C# Auto Mapping Objects\AutoMappingObjects\AutoMappingObjects.Client\obj\Debug\AutoMappingObjects.Client.pdb
