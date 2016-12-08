@@ -1,0 +1,5 @@
+D:\DB Advanced\Podgotvka za izpit\MassDefect\MassDefect.Models\bin\Debug\MassDefect.Models.dll
+D:\DB Advanced\Podgotvka za izpit\MassDefect\MassDefect.Models\bin\Debug\MassDefect.Models.pdb
+D:\DB Advanced\Podgotvka za izpit\MassDefect\MassDefect.Models\obj\Debug\MassDefect.Models.csprojResolveAssemblyReference.cache
+D:\DB Advanced\Podgotvka za izpit\MassDefect\MassDefect.Models\obj\Debug\MassDefect.Models.dll
+D:\DB Advanced\Podgotvka za izpit\MassDefect\MassDefect.Models\obj\Debug\MassDefect.Models.pdb
